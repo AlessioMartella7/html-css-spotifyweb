@@ -1,0 +1,26 @@
+/* Custom Properties */
+:root {
+    --gray: #545454;
+}
+
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+/* Utilities */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
