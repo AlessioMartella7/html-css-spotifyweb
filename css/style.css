@@ -39,11 +39,40 @@ body{
 
 /* sidebar */
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: calc(100vh - 120px);
     background-color: aqua;
     overflow: auto;
-    max-width: 240px;
+    flex-basis: 50px;
     flex-shrink: 0;
+}
+
+/* Sidebar TOP */
+.nav-top {
+    background-color: cornflowerblue;
+    flex-basis: 20vh;
+}
+
+/* Pulsanti navigazione */
+.nav-btn {
+    height: 100%;
+    background-color: bisque;
+    display: block;
+}
+
+/* playlist */
+.nav-list {
+    background-color: brown;
+    height: 70%;
+    display: none;
+}
+
+/* Sidebar BOTTOM */
+.nav-bottom {
+    flex-basis: 10vh;
+    background-color: darkblue;
 }
 
 /* contenuto principale */

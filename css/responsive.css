@@ -1,0 +1,28 @@
+/* MEDIA QUERY S MOBILE > 552PX */
+
+@media screen and (min-width:552px) {
+    
+/* la sidebar si restringe */
+.sidebar {
+    flex-basis: 300px;
+}
+
+/* ridimensionamento sidebar TOP */
+
+.nav-top {
+    flex-basis: 45vh;
+}
+
+.nav-top .nav-btn {
+    height: 30%;
+}
+
+/* appare la playlist nella sidebar */
+.nav-top .nav-list {
+    display: block;
+}
+
+
+.nav-list 
+
+}
