@@ -19,34 +19,54 @@ body{
 }
 
 /* Utilities */
+.prov-br {
+    border: 1px dashed #fff;
+}
+
 
 .container{
     max-width: 1080px;
     margin: 0 auto;
 }
 
-/* upper body */
+/* ---------UPPER BODY----------- */
+
 .top {
     display: flex;
     color: #000;
 }
-
-/* barra inferiore */
-.bottom footer {    
-    height: 120px;
-    background-color: chartreuse;
+/* contenuto principale */
+.main-content {
+    height: calc(100vh - 120px);
+    background-color: rgb(221, 210, 228);
+    overflow: auto;
+    color: #000;
+    position: relative;
 }
 
-/* sidebar */
+/* header */
+header {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+/* ------------SIDEBAR---------- */
+
 .sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(100vh - 120px);
-    background-color: aqua;
-    overflow: auto;
-    flex-basis: 50px;
     flex-shrink: 0;
+    flex-basis: 50px;
+    height: calc(100vh - 120px);
+    background-color: #000;
+    overflow: auto;
+    padding: 0 10px;
 }
 
 /* Sidebar TOP */
@@ -67,6 +87,7 @@ body{
     background-color: brown;
     height: 70%;
     display: none;
+    
 }
 
 /* Sidebar BOTTOM */
@@ -75,21 +96,29 @@ body{
     background-color: darkblue;
 }
 
-/* contenuto principale */
-.main-content {
-    height: calc(100vh - 120px);
-    background-color: rgb(221, 210, 228);
-    overflow: auto;
-    color: #000;
-    position: relative;
+
+/* --------BARRA INFERIORE--------*/
+
+.bottom footer {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    padding: 10px;
+    background-color: #282828;
 }
 
-/* header */
-header {
-    height: 120px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: sticky;
-    left: 0;
-    right: 0;
-    top: 0;
+.bar {
+    height:100%;
+    background-color: aliceblue;
+    border: 1px dashed purple;
+}
+
+.bar.bar-small {
+    flex-basis: 30%;
+}
+
+.bar.bar-big {
+    flex-basis: 35%;
 }

@@ -1,10 +1,11 @@
-/* MEDIA QUERY S MOBILE > 552PX */
+/* MEDIA QUERY XS > 552PX */
 
 @media screen and (min-width:552px) {
     
 /* la sidebar si restringe */
 .sidebar {
-    flex-basis: 300px;
+    flex-basis: 210px;
+    padding: 0 15px;
 }
 
 /* ridimensionamento sidebar TOP */
@@ -22,7 +23,24 @@
     display: block;
 }
 
+/* ridimensionamento barra inferiore */
 
-.nav-list 
+.bar.bar-small {
+    flex-basis: 200px;
+}
+
+.bar.bar-big{
+    flex-basis: 40%;
+}
+
+/* -----------MEDIA QUERY S > 639PX--------- */
+@media screen and (min-width:639px) {
+
+}
+
+
+/* -----------MEDIA QUERY M > 878PX--------- */
+
+@media screen and (min-width:878px) {
 
 }
