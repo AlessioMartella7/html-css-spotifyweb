@@ -25,30 +25,42 @@ body{
     margin: 0 auto;
 }
 
+/* upper body */
 .top {
     display: flex;
-    height: calc(100vh - 120px);
-    background-color: cadetblue;
-    overflow: auto;
     color: #000;
 }
 
+/* barra inferiore */
 .bottom footer {    
     height: 120px;
     background-color: chartreuse;
 }
 
-.navbar {
+/* sidebar */
+.sidebar {
     height: calc(100vh - 120px);
     background-color: aqua;
     overflow: auto;
     max-width: 240px;
+    flex-shrink: 0;
 }
 
+/* contenuto principale */
 .main-content {
     height: calc(100vh - 120px);
-    background-color: rgb(157, 97, 197);
+    background-color: rgb(221, 210, 228);
     overflow: auto;
     color: #000;
+    position: relative;
 }
 
+/* header */
+header {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+}
