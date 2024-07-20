@@ -126,7 +126,7 @@ min-height: 300px;;
 }
 
 /* playlist */
-.nav-list {
+.nav-top .nav-list {
     background-color: brown;
     height: 70%;
     display: none;

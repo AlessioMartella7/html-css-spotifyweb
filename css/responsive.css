@@ -2,12 +2,10 @@
 
 @media screen and (min-width:552px) {
     
-/* la sidebar si restringe */
+/* la sidebar si allarga */
 .sidebar {
     flex-basis: 210px;
     padding: 0 15px;
-}
-
 }
 
 /* ridimensionamento sidebar TOP */
@@ -33,6 +31,8 @@
 
 .bar.bar-big{
     flex-basis: 40%;
+}
+
 }
 
 /* -----------MEDIA QUERY S > 639PX--------- */
