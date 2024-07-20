@@ -45,4 +45,21 @@
 
 @media screen and (min-width:878px) {
 
+/* ridimensionamento card main */
+
+.col {
+    flex-basis: calc(25% - 3rem /4);
 }
+
+}
+
+/* -----------MEDIA QUERY L > 1440PX--------- */
+
+@media screen and (min-width:1440px) {
+
+/* ridimensionamento card main */    
+
+.col {
+     flex-basis: calc(100% / 6 - 5rem /6);  }
+    
+    }
