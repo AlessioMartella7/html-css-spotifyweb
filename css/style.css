@@ -29,6 +29,10 @@ body{
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
 /* ---------UPPER BODY----------- */
 
 .top {
@@ -38,7 +42,8 @@ body{
 /* contenuto principale */
 .main-content {
     height: calc(100vh - 120px);
-    background-color: rgb(221, 210, 228);
+    flex-basis: 100%;
+    background-color: rgb(180, 134, 209);
     overflow: auto;
     color: #000;
     position: relative;
@@ -54,6 +59,35 @@ header {
     top: 0;
 }
 
+/* main navigation  */
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.main-page {
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col {
+flex-basis: calc(50% - 1rem /2);
+}
+
+.card {
+height: 300px;;
+}
 
 /* ------------SIDEBAR---------- */
 
