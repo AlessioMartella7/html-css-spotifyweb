@@ -202,7 +202,6 @@ min-height: 300px;;
 
 .bar {
     height:100%;
-    border: 1px dashed purple;
 }
 
 .bar.bar-big {
@@ -217,14 +216,15 @@ min-height: 300px;;
     align-items: center;
 }
 
+/* barra sinistra  */
 .bar-img {
     max-height: 100%;
-    flex-basis: 20%;
+    flex-basis: 25%;
     margin-right: 5px;
 }
 
 .bar-text {
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 20px;
 }
 
@@ -233,7 +233,8 @@ min-height: 300px;;
     text-align: center;
 }
 
-.bar.bar-small.right-bar{
+/* barra destra */
+.bar-small.right-bar{
 justify-content: space-between;
 }
 
@@ -260,6 +261,10 @@ justify-content: space-between;
     border-radius: 50px;
 }
 
+/* barra centrale */
+.mid-bar {
+}
+
 .time-bar {
     display: flex;
     align-items: center;
@@ -269,4 +274,13 @@ justify-content: space-between;
 
 .time-bar .prog-bar {
     flex-basis: 85%;
+}
+
+.button-icons {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 15px;
 }

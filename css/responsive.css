@@ -55,6 +55,11 @@
      
 }
 
+/* aumento gap button mid bar bottom */
+.button-icons {
+    gap: 20px;
+}
+
 }
 
 
@@ -68,6 +73,10 @@
     flex-basis: calc(25% - 3rem /4);
 }
 
+/* aumento gap button mid bar bottom */
+.button-icons {
+    gap: 25px;
+}
 }
 
 /* -----------MEDIA QUERY L > 1440PX--------- */
@@ -84,5 +93,11 @@
     gap: 35px;
   
 }
+
+/* aumento gap button mid bar bottom */
+.button-icons {
+    gap: 30px;
+}
     
+
 }
