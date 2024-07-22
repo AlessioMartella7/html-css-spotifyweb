@@ -81,6 +81,7 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 30px;
     
 }
 
@@ -102,6 +103,12 @@ flex-basis: calc(50% - 1rem /2);
 
 .card {
 min-height: 300px;;
+}
+.card-text {
+    text-align: center;
+}
+#popolari .card-img img{
+    border-radius: 50%;
 }
 
 /* ------------SIDEBAR---------- */
