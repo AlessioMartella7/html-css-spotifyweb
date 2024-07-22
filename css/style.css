@@ -246,7 +246,7 @@ justify-content: space-between;
  
 }
 
-.bar-small .prog-bar {
+.bar .prog-bar {
     height: 4px;
     flex-basis: 60%;
     background-color: var(--gray);
@@ -258,4 +258,15 @@ justify-content: space-between;
     width: 20%;
     background-color:lightgray;
     border-radius: 50px;
+}
+
+.time-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.time-bar .prog-bar {
+    flex-basis: 85%;
 }
