@@ -1,6 +1,7 @@
 /* Custom Properties */
 :root {
     --gray: #545454;
+    --lgray: #949499;
 }
 
 
@@ -24,7 +25,14 @@ li {
 
 a {
     text-decoration: none;
+    color: var(--lgray);
+
 }
+
+h2 {
+    font-size: 26px;
+}
+
 
 .main-content section {
     margin-bottom: 35px;
@@ -49,28 +57,39 @@ img {
 
 .top {
     display: flex;
-    color: #000;
     height: calc(100vh - 120px);
     overflow: auto;
 }
 /* contenuto principale */
 .main-content {
     flex-basis: 100%;
-    background-color: rgb(180, 134, 209);
+    background-color: #141922;
     height: calc(100vh - 120px);
     overflow: auto;
-    color: #000;
     position: relative;
 }
 
 /* header */
 header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     height: 120px;
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     left: 0;
     right: 0;
     top: 0;
+}
+
+.upgrade-btn {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 28px;
+    margin-right: 5px;
 }
 
 /* main navigation  */
@@ -83,6 +102,10 @@ header {
     gap: 10px;
     margin-bottom: 30px;
     
+}
+
+.nav-link a {
+    font-weight: 600;
 }
 
 .main-page {
