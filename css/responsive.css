@@ -48,6 +48,13 @@
     margin-right: 30px;
     }      
 
+/* aumenta la dimensione delle icone sulla barra destra */
+.bar-right-icons {
+    font-size: 14px;
+    flex-basis: 35%;
+     
+}
+
 }
 
 
