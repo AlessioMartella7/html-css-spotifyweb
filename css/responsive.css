@@ -40,7 +40,13 @@
 
  /* aumenta la grandezza titolo sezioni */
  h2 {
-      font-size: 26px;  }
+    font-size: 26px;  }
+ 
+
+/* aumenta lo spazio tra testo ed icone */
+.bar > .bar-text {
+    margin-right: 30px;
+    }      
 
 }
 
