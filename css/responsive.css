@@ -38,6 +38,10 @@
 /* -----------MEDIA QUERY S > 639PX--------- */
 @media screen and (min-width:639px) {
 
+ /* aumenta la grandezza titolo sezioni */
+ h2 {
+      font-size: 26px;  }
+
 }
 
 

@@ -28,9 +28,12 @@ a {
     color: var(--lgray);
 
 }
-
 h2 {
-    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: var(--lgray);
 }
 
 
@@ -63,7 +66,7 @@ img {
 /* contenuto principale */
 .main-content {
     flex-basis: 100%;
-    background-color: #141922;
+    background-color:#141922;
     height: calc(100vh - 120px);
     overflow: auto;
     position: relative;
@@ -129,9 +132,14 @@ min-height: 300px;;
 }
 .card-text {
     text-align: center;
+    padding: 15px;
 }
 #popolari .card-img img{
     border-radius: 50%;
+}
+
+.card-text h4 {
+    margin-bottom: 10px;
 }
 
 /* ------------SIDEBAR---------- */
