@@ -10,9 +10,6 @@
 
 /* ridimensionamento sidebar TOP */
 
-.nav-top {
-    flex-basis: 45vh;
-}
 
 .nav-top .nav-btn {
     height: 30%;
@@ -32,6 +29,25 @@
 .bar.bar-big{
     flex-basis: 40%;
 }
+
+/* classi visibilità */
+
+.d-s-flex {
+    display: flex;
+}
+
+.d-s-none {
+    display: none;
+}
+
+.d-s-block {
+    display: block;
+}
+
+.d-s-inline {
+    display: inline;
+}
+
 
 }
 
