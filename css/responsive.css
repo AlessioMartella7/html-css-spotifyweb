@@ -10,7 +10,6 @@
 
 /* ridimensionamento sidebar TOP */
 
-
 .nav-top .nav-btn {
     height: 30%;
 }
@@ -52,6 +51,14 @@
 .mb-15-s {
     margin-bottom: 15px;
 }
+
+/* allineamento icona installazione a sinistra */
+
+.well
+{
+    text-align: left;
+}
+
 }
 
 /* -----------MEDIA QUERY S > 639PX--------- */
