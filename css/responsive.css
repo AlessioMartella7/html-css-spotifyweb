@@ -52,11 +52,16 @@
     margin-bottom: 15px;
 }
 
-/* allineamento icona installazione a sinistra */
+/* allineamento icona installazione a sinistra e nome al centro */
 
 .well
 {
     text-align: left;
+}
+
+.bot-well 
+{
+    align-items: center;
 }
 
 }
