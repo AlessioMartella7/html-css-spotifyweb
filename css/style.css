@@ -4,9 +4,8 @@
     --lgray: #949499;
 }
 
-
 /* Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,8 +25,8 @@ li {
 a {
     text-decoration: none;
     color: var(--lgray);
-
 }
+
 h2 {
     margin-bottom: 10px;
 }
@@ -58,6 +57,7 @@ img {
     max-width: 100%;
     display: block;
 }
+
 /* spacing*/
 
 .mr-l5 {
@@ -93,6 +93,7 @@ img {
     height: calc(100vh - 120px);
     overflow: auto;
 }
+
 /* contenuto principale */
 .main-content {
     flex-basis: 100%;
@@ -122,7 +123,12 @@ header {
     padding: 10px 30px;
     border: 1px solid #fff;
     border-radius: 28px;
-    margin-right: 5px;
+    margin-right: 15px;
+}
+
+.upgrade-btn:hover {
+    transform: scale(1.2);
+    margin-right: 25px;
 }
 
 .upgrade-btn a {
@@ -139,11 +145,14 @@ header {
     gap: 10px;
     margin-bottom: 30px;
     font-size: 14px;
-    
 }
 
 .nav-link a {
     font-weight: 600;
+}
+
+.nav-link a:hover  {
+    color: #fff;
 }
 
 .main-page {
@@ -190,6 +199,7 @@ position: relative;
     text-align: center;
     padding: 15px;
 }
+
 #popolari .card-img img{
     border-radius: 50%;
 }
@@ -237,8 +247,8 @@ position: relative;
     align-items: center;
     cursor: pointer;
     position: relative;
-
 }
+
 .nav-icons:hover a {
     color: #fff;
 }
@@ -251,6 +261,7 @@ position: relative;
     width: 30px;
 
 }
+
 /* playlist */
 .nav-top .nav-list {
     height: 75%;    
@@ -283,7 +294,7 @@ ul.mb-10-xs li {
     background-color: #fff;
 }
 
-/* Sidebar BOTTOM */
+/* SIDEBAR bottom  */
 .nav-bottom {
     flex-basis: 10vh;
 }
@@ -305,7 +316,7 @@ ul.mb-10-xs li {
     font-size: 14px;
 }
 
-.top-well:hover span {
+.top-well:hover a{
     color: #fff;
 }
 
@@ -350,9 +361,18 @@ ul.mb-10-xs li {
     margin-right: 20px;
 }
 
+.bar-text:hover h5 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .bar-left-icons{
     color: var(--gray);
     text-align: center;
+}
+
+.bar-left-icons i:hover {
+    color: var(--lgray);
 }
 
 /* barra destra */
@@ -383,6 +403,30 @@ justify-content: space-between;
     border-radius: 50px;
 }
 
+.prog-bar-inner > .green  {
+    height: 4px;
+    width: 100%;
+    background-color:yellowgreen;
+    border-radius: 50px;
+    position: relative;
+}
+
+.prog-bar-inner > .green.dot::after {
+    content: '';
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--lgray);
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+
+.prog-bar:hover .green{
+    display: block;
+}
+
 /* barra centrale */
 
 .time-bar {
@@ -403,6 +447,10 @@ justify-content: space-between;
     align-items: center;
     margin: 20px auto;
     gap: 15px;
+}
+
+.button-icons:hover .fa-circle-play {
+    transform: scale(1.2);
 }
 
 /* active class */

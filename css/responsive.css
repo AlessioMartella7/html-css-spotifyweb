@@ -93,7 +93,6 @@
 
 }
 
-
 /* -----------MEDIA QUERY M > 878PX--------- */
 
 @media screen and (min-width:878px) {
@@ -130,5 +129,4 @@
     gap: 30px;
 }
     
-
 }
