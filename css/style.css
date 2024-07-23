@@ -50,14 +50,24 @@ section > .row {
     border: 1px dashed #fff;
 }
 
+.main-clr {
+    color: var(--gray);
+}
+
 img {
     max-width: 100%;
     display: block;
 }
+/* spacing*/
 
 .mr-l5 {
     margin-left: 5px;
 }
+
+.mb-10-xs {
+    margin-bottom: 10px;
+}
+
 /* classi visibilità */
 
 .d-flex {
@@ -183,7 +193,6 @@ min-height: 300px;;
 
 /* Sidebar TOP */
 .nav-top {
-    background-color: cornflowerblue;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
@@ -192,7 +201,6 @@ min-height: 300px;;
 /* Pulsanti navigazione */
 .nav-btn {
     height: 100%;
-    background-color: bisque;
     display: block;
     padding: 5px 0;
 }
@@ -213,14 +221,31 @@ min-height: 300px;;
 
 .nav-icons img{
     width: 30px;
-    margin-bottom: 15px;
+
 }
 /* playlist */
 .nav-top .nav-list {
-    background-color: brown;
-    height: 70%;
-    display: none;
-    
+    height: 75%;    
+}
+
+.add-list i {
+    color: #000;
+    height: 32px;
+    width: 32px;
+    background-color: var(--lgray);
+    text-align: center;
+    padding: 8px;
+}
+
+.add-list > span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ul.mb-10-xs li {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 /* Sidebar BOTTOM */
