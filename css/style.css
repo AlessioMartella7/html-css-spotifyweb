@@ -133,7 +133,7 @@ header {
 
 .nav-link{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
@@ -386,6 +386,14 @@ justify-content: space-between;
 
 /* active class */
 
+.nav-link li.active::after{
+    content: '';
+    display: block;
+    width:35%;
+    height: 2px;
+    background-color: yellowgreen;
+    margin: 2px auto;
+}
 
 .nav-icons.active::before {
     content: '';
