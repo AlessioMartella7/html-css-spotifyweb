@@ -395,7 +395,6 @@ justify-content: space-between;
     background-color: var(--gray);
     border-radius: 50px;
 }
-
 .prog-bar >.prog-bar-inner  {
     height: 4px;
     width: 20%;
@@ -403,25 +402,6 @@ justify-content: space-between;
     border-radius: 50px;
 }
 
-.prog-bar-inner > .green  {
-    height: 4px;
-    width: 100%;
-    background-color:yellowgreen;
-    border-radius: 50px;
-    position: relative;
-}
-
-.prog-bar-inner > .green.dot::after {
-    content: '';
-    display: block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    background-color: var(--lgray);
-    position: absolute;
-    right: 0;
-    top: -5px;
-}
 
 .prog-bar:hover .green{
     display: block;
@@ -453,6 +433,26 @@ justify-content: space-between;
     transform: scale(1.2);
 }
 
+/* barra interna verde */
+.prog-bar-inner > .green  {
+    height: 4px;
+    width: 100%;
+    background-color:yellowgreen;
+    border-radius: 50px;
+    position: relative;
+}
+
+.prog-bar-inner > .green.dot::after {
+    content: '';
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--lgray);
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
 /* active class */
 
 .nav-link li.active::after{
